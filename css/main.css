@@ -1,28 +1,38 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.google.com/specimen/Raleway');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #2C2B30;
+    color: white;
+    font-family: 'Raleway', sans-serif;;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
+header {
+    justify-content: center;
+}
+
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #D6D6D6; 
+    background: #4F4F51;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #D6D6D6;
     line-height: 2.5em;
 }
 
-main.wrapper {
-    background-color: white;
+img#banner {
+    display: block;
+    width:100%;
+}
+
+main.wrapper { 
+    background-color: #2C2B30;
     overflow: auto;
 }
 
@@ -37,13 +47,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color: #f5aa7c;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #ff9e62;
     text-decoration: none;
 }
 
